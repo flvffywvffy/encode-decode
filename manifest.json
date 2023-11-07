@@ -13,5 +13,13 @@
 
   "action": {
     "default_popup": "pages/popup.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "marcus.leonas@gmail.com",
+      "strict_min_version": "109"
+    }
   }
+  
 }
