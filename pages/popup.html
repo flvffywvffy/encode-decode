@@ -9,16 +9,22 @@
 <body>
     <div class="title-bar">
         <h1>EncodeDecode</h1>
-        <select name="type" id="encode-type">
-            <option value="encode">Encode</option>
-            <option value="decode">Decode</option>
-        </select>
+        <div>
+            <select name="encoder" id="encoder">
+                <option value="base64">Base64</option>
+                <option value="url">URL</option>
+            </select>
+            <select name="type" id="encoderFunction">
+                <option value="encode">Encode</option>
+                <option value="decode">Decode</option>
+            </select>
+        </div>
     </div>
     <main>
         <textarea name="textarea" id="textarea"></textarea>
         <div class="btn-area">
             <button id="convert">Convert</button>
-            <p>Made with ❤️ by <a href="https://marcusleonasharvey.com">Marcus.</a></p>
+            <p>Made with ❤️ by <a href="https://marcusleonasharvey.com">Marcus.</a> || <a href="https://github.com/flvffywvffy/encode-decode/issues/new/choose">Report a Bug</a></p>
         </div>
     </main>
 
